@@ -39,7 +39,13 @@ Two hump model:
 
 ![spain (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/spain-2h.png?raw=true)
 
-Germany - one hump vs two hump:
+
+Portugal, on the other hand, doesn't fit well neither in one nor two hump models:
+
+![portugal (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/portugal-1h.png?raw=true)
+![portugal (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/portugal-2h.png?raw=true)
+
+Germany - one hump vs two hump (two hump is slightly better):
 
 ![germany (one hump)](https://github.com/quantbin/logit-regression/blob/master/img/germany-1h.png?raw=true)
 ![germany (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/germany-2h.png?raw=true)
@@ -55,10 +61,12 @@ Below are the two-hump models for few more countries:
 ![belgium (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/belgium-2h.png?raw=true)
 ![denmark (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/denmark-2h.png?raw=true)
 ![dutch (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/dutch-2h.png?raw=true)
-![iran (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/iran-2h.png?raw=true)
 ![israel (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/israel-2h.png.png?raw=true)
 ![norway (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/norway-2h.png?raw=true)
-![portugal (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/portugal-2h.png?raw=true)
 ![sweden (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/sweden-2h.png?raw=true)
 ![swiss (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/swiss-2h.png?raw=true)
 ![turkey (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/turkey-2h.png?raw=true)
+
+Iran's trajectory is quite complex for one or two humps:
+
+![iran (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/iran-2h.png?raw=true)
