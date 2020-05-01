@@ -68,7 +68,7 @@ Below are the two-hump models for few more countries:
 ![belgium (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/belgium-2h.png?raw=true)
 ![denmark (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/denmark-2h.png?raw=true)
 ![dutch (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/dutch-2h.png?raw=true)
-![israel (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/israel-2h.png.png?raw=true)
+![israel (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/israel-2h.png?raw=true)
 ![norway (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/norway-2h.png?raw=true)
 ![sweden (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/sweden-2h.png?raw=true)
 ![swiss (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/swiss-2h.png?raw=true)
