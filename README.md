@@ -1,5 +1,11 @@
-# logit-regression
-Logistic regression approximation of Covid19 death rate. Data is as of April 30, 2020. 
+# Logistic regression approximation of Covid19 death rate. Data is as of April 30, 2020. 
+
+# Summary
+Using two logit functions to approximate the death rate provides a good fit for many countries, while single logit falls way behind. 
+
+Python Jupyter notebook code can be found in src folder.
+
+# Results
 
 https://en.wikipedia.org/wiki/Logistic_function
 
@@ -57,7 +63,6 @@ France:
 
 Below are the two-hump models for few more countries:
 
-![austria (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/austria-2h.png?raw=true)
 ![belgium (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/belgium-2h.png?raw=true)
 ![denmark (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/denmark-2h.png?raw=true)
 ![dutch (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/dutch-2h.png?raw=true)
@@ -70,3 +75,21 @@ Below are the two-hump models for few more countries:
 Iran's trajectory is quite complex for one or two humps:
 
 ![iran (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/iran-2h.png?raw=true)
+
+Same with Austria - the fit is not great:
+
+![austria (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/austria-2h.png?raw=true)
+
+# Interpretation of results
+In many cases the two-logit model provides a much better fit than one-logit model. One possible explanation can be that there are two parallel epidemics taking place either in different geographies (within the same country) or in two different population groups in the same location that do not interact with each other and posess different characteristics (mobility, infection rate etc). 
+
+Taking Italy and Spain, for example, the first hump is tall and narrow, which indicates fast spread with high mortality rate - probably nursing homes. Second hump could be the general population:
+
+![italy (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/italy-2h.png?raw=true)
+
+But in some countries (like Sweden) teh first hump is mild, while the second one is more prominent:
+
+![sweden (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/sweden-2h.png?raw=true)
+
+# Conclusion
+Each country develops its own pattern of virus spread. In some cases it can be approximated by single logit function, in many cases it takes two logit functions to provide a good fit. Some countries deveop a unique pattern that is hard to model.
