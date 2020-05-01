@@ -1,11 +1,11 @@
-# Logistic regression approximation of Covid19 death rate. Data is as of April 30, 2020. 
+# Logistic regression approximation of Covid19 death rate. 
 
 # Summary
-Using two logit functions to approximate the death rate provides a good fit for many countries, while single logit falls way behind. 
+Using two logit functions to approximate the death rate provides a very good fit for many countries, while single logit falls behind. 
 
-Python Jupyter notebook code can be found in src folder.
+Python Jupyter notebook code can be found in src folder. Data is as of April 30, 2020. 
 
-# Results
+# Intro
 
 https://en.wikipedia.org/wiki/Logistic_function
 
@@ -28,6 +28,8 @@ The accumulated number of Covid deaths in Italy follows similar pattern:
 With daily number of deaths looking like:
 
 <img src="https://github.com/quantbin/logit-regression/blob/master/img/italy-fact-hump.PNG?raw=true" width="500">
+
+# Results
 
 The problem is that if we try to fit the logit function in it, the fit will not be great:
 
