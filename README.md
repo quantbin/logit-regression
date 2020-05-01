@@ -9,7 +9,7 @@ Python Jupyter notebook code can be found in src folder. Data is as of April 30,
 
 https://en.wikipedia.org/wiki/Logistic_function
 
-Logistic regression can be used to model a number of processes, including the propagation of a virus. It describes the non-linear population growth:
+Logistic growth can be used to model a number of processes, including the propagation of a virus. It describes the non-linear population growth:
 
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/cd66ce29a6e4c09182f3af05f1a3b67e6a7ce528)
 
@@ -25,17 +25,17 @@ The accumulated number of Covid deaths in Italy follows similar pattern:
 
 <img src="https://github.com/quantbin/logit-regression/blob/master/img/italy-fact.PNG?raw=true" width="500">
 
-With daily number of deaths looking like:
+It does not have much detail, but if after taking first derivative (convert to daily deaths) the structure appears:
 
 <img src="https://github.com/quantbin/logit-regression/blob/master/img/italy-fact-hump.PNG?raw=true" width="500">
 
 # Results
 
-The problem is that if we try to fit the logit function in it, the fit will not be great:
+The problem is that if we try to fit the logit function in this curve (Italian Covid19 deaths), the fit will not be great:
 
 ![italy (one hump)](https://github.com/quantbin/logit-regression/blob/master/img/italy-1h.png?raw=true)
 
-But if we fit a sum of two logit functions, the fit becomes much better:
+But if we fit *a sum of two logit functions*, the fit becomes much better:
 
 ![italy (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/italy-2h.png?raw=true)
 
@@ -89,7 +89,7 @@ Same with Austria - the fit is not great:
 # Interpretation of results
 In many cases the two-logit model provides a much better fit than one-logit model. One possible explanation can be that there are two parallel epidemics taking place either in different geographies (within the same country) or in two different population groups in the same location that do not interact with each other and posess different characteristics (mobility, infection rate etc). 
 
-Taking Italy and Spain, for example, the first hump is tall and narrow, which indicates fast spread with high mortality rate - probably nursing homes. Second hump could be the general population:
+Taking Italy and Spain, for example, the first hump is tall and narrow, which indicates fast spread with high mortality rate - probably nursing homes. Second hump could be the general population. First wave is over by now (April 30), while the second is in decline:
 
 ![italy (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/italy-2h.png?raw=true)
 
