@@ -1,5 +1,22 @@
 # logit-regression
 Logistical regression approximation of Covid19 death rate.
 
-
-![Italy (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/italy-2h.png?raw=true)
+![austria (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/austria-2h.png?raw=true)
+![belgium (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/belgium-2h.png?raw=true)
+![denmark (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/denmark-2h.png?raw=true)
+![dutch (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/dutch-2h.png?raw=true)
+![france (one hump)](https://github.com/quantbin/logit-regression/blob/master/img/france-1h.png?raw=true)
+![france (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/france-2h.png?raw=true)
+![germany (one hump)](https://github.com/quantbin/logit-regression/blob/master/img/germany-1h.png?raw=true)
+![germany (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/germany-2h.png?raw=true)
+![iran (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/iran-2h.png?raw=true)
+![israel (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/israel-2h.png.png?raw=true)
+![italy (one hump)](https://github.com/quantbin/logit-regression/blob/master/img/italy-1h.png?raw=true)
+![italy (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/italy-2h.png?raw=true)
+![norway (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/norway-2h.png?raw=true)
+![portugal (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/portugal-2h.png?raw=true)
+![spain (one hump)](https://github.com/quantbin/logit-regression/blob/master/img/spain-1h.png?raw=true)
+![spain (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/spain-2h.png?raw=true)
+![sweden (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/sweden-2h.png?raw=true)
+![swiss (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/swiss-2h.png?raw=true)
+![turkey (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/turkey-2h.png?raw=true)
