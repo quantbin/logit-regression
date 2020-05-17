@@ -1,7 +1,7 @@
 # Logistic regression approximation of Covid19 death rate. 
 
 # Summary
-Using two logit functions to approximate the death rate provides a very good fit for many countries, while single logit falls behind. 
+Using two logit functions to approximate the Covid19 death rate provides a very good fit for many countries, while single logit falls behind. 
 
 Python Jupyter notebook code can be found in src folder. Data is as of April 30, 2020. 
 
@@ -13,11 +13,11 @@ Logistic growth can be used to model a number of processes, including the propag
 
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/cd66ce29a6e4c09182f3af05f1a3b67e6a7ce528)
 
-with phase portrait:
+with the phase portrait:
 
 <img src="https://github.com/quantbin/logit-regression/blob/master/img/logit-phase.gif" width="500">
 
-and first derivative (density):
+and the first derivative (density):
 
 <img src="https://github.com/quantbin/logit-regression/blob/master/img/1024px-Logisticpdfunction.svg.png" width="500">
 
@@ -25,13 +25,13 @@ The accumulated number of Covid deaths in Italy follows similar pattern:
 
 <img src="https://github.com/quantbin/logit-regression/blob/master/img/italy-fact.PNG?raw=true" width="500">
 
-It does not have much detail, but if after taking first derivative (convert to daily deaths) the structure appears:
+It does not have much detail, but if after taking the first derivative (convert to daily deaths) the structure appears:
 
 <img src="https://github.com/quantbin/logit-regression/blob/master/img/italy-fact-hump.PNG?raw=true" width="500">
 
 # Results
 
-The problem is that if we try to fit the logit function in this curve (Italian Covid19 deaths), the fit will not be great:
+If we try to fit the logit function in this curve (Italian Covid19 deaths), the fit will not be great:
 
 ![italy (one hump)](https://github.com/quantbin/logit-regression/blob/master/img/italy-1h.png?raw=true)
 
@@ -87,13 +87,13 @@ Same with Austria - the fit is not great:
 ![austria (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/austria-2h.png?raw=true)
 
 # Interpretation of results
-In many cases the two-logit model provides a much better fit than one-logit model. One possible explanation can be that there are two parallel epidemics taking place either in different geographies (within the same country) or in two different population groups in the same location that do not interact with each other and posess different characteristics (mobility, infection rate etc). 
+In many cases the two-logit model provides a much better fit than one-logit model. One possible explanation is that there are two parallel epidemics taking place either in different geographies (within the same country) or in two different population groups in the same location that do not interact with each other and posess different characteristics (mobility, infection rate etc). 
 
-Taking Italy and Spain, for example, the first hump is tall and narrow, which indicates fast spread with high mortality rate - probably nursing homes. Second hump could be the general population. First wave is over by now (April 30), while the second is in decline:
+Taking Italy and Spain, for example, the first hump is tall and narrow, which indicates fast spread with high mortality rate - probably nursing homes. Second hump could be the general population. First wave was over by April 30, while the second is in decline:
 
 ![italy (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/italy-2h.png?raw=true)
 
-But in some countries (like Sweden) teh first hump is mild, while the second one is more prominent:
+But in some countries (like Sweden) the first hump is mild, while the second one is more prominent:
 
 ![sweden (two hump)](https://github.com/quantbin/logit-regression/blob/master/img/sweden-2h.png?raw=true)
 
