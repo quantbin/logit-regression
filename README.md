@@ -25,7 +25,7 @@ The accumulated number of Covid deaths in Italy follows similar pattern:
 
 <img src="https://github.com/quantbin/logit-regression/blob/master/img/italy-fact.PNG?raw=true" width="500">
 
-It does not have much detail, but if after taking the first derivative (convert to daily deaths) the structure appears:
+It does not have much detail, but after taking the first derivative (convert to daily deaths) the structure appears:
 
 <img src="https://github.com/quantbin/logit-regression/blob/master/img/italy-fact-hump.PNG?raw=true" width="500">
 
